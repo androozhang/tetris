@@ -1,4 +1,6 @@
 from tkinter import *
+import pygame
+from pygame import mixer
 
 ###
 # Instructions: http://www.krivers.net/CSS-m21/tetris/index.html
@@ -11,6 +13,10 @@ from tkinter import *
 ###########################
 # customize these functions
 ###########################
+
+#Background Music
+
+
 
 def gameDimensions():
     rows = 15
@@ -74,6 +80,9 @@ def init(data):
     fallingPieceColor = ""
     data.fallingPieceColor = ""
     data.isGameOver = False
+    mixer.init()
+    mixer.music.load('tetris.mid')
+    mixer.music.play(loops=0)
     for row in range(data.rows):
         data.board.append([data.emptyColor] * data.cols)
 # pre-load a few cells with known colors for testing purposes
@@ -255,6 +264,7 @@ def timeLoop(data, canvas):
 
     canvas.after(data.timeRate, timeLoop, data, canvas)
 
+
 def keyEventHandler(data, canvas, event):
     keyPressed(event, data)
 
@@ -272,6 +282,8 @@ def mouseEventHandler(data, canvas, event):
 class Model:
     pass
 
+
+
 def runSimulation(w, h, rate):
     data = Model()
     data.width = w
@@ -286,6 +298,7 @@ def runSimulation(w, h, rate):
     redrawAll(canvas, data)
 
     canvas.after(data.timeRate, timeLoop, data, canvas)
+
 
     root.bind("<Key>", lambda event : keyEventHandler(data, canvas, event))
     root.bind("<Button-1>", lambda event : mouseEventHandler(data, canvas, event))
