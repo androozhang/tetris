@@ -28,7 +28,7 @@ This project is a basic implementation of the classic game Tetris using Python a
 
 ## Demo
 
-![Tetris Demo](tetris-demo.gif)
+![Tetris Demo](https://i.imgur.com/k1UD12p.gif)
 
 Check out the [demo video](tetris-demo.mp4) to see the game in action.
 
