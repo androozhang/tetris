@@ -1,6 +1,6 @@
 # Tetris Game
 
-<img src="https://i.imgur.com/kclBwlf.png" width="25%">
+<img src="https://i.imgur.com/kclBwlf.png" width="50%">
 
 A simple implementation of the classic Tetris game using Python and Tkinter.
 
