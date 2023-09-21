@@ -1,6 +1,6 @@
 # Tetris Game
 
-![Tetris Screenshot](https://i.imgur.com/kclBwlf.png)
+<img src="https://i.imgur.com/kclBwlf.png" width="25%">
 
 A simple implementation of the classic Tetris game using Python and Tkinter.
 
@@ -28,9 +28,7 @@ This project is a basic implementation of the classic game Tetris using Python a
 
 ## Demo
 
-![Tetris Demo](https://i.imgur.com/k1UD12p.gif)
-
-Check out the [demo video](tetris-demo.mp4) to see the game in action.
+<img src="https://i.imgur.com/k1UD12p.gif" width="25%">
 
 ## How to Play
 
