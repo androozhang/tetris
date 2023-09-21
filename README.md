@@ -51,10 +51,12 @@ To run the Tetris game on your local machine, follow these steps:
 
 2. Navigate to the project directory.
 
+    ```bash
     cd tetris-game
 
 3. Run the game.
 
+    ```bash
     python tetris.py
 
 ## Controls
