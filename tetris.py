@@ -1,6 +1,4 @@
 from tkinter import *
-import pygame
-from pygame import mixer
 
 ###
 # Instructions: http://www.krivers.net/CSS-m21/tetris/index.html
@@ -80,9 +78,6 @@ def init(data):
     fallingPieceColor = ""
     data.fallingPieceColor = ""
     data.isGameOver = False
-    mixer.init()
-    mixer.music.load('tetris.mid')
-    mixer.music.play(loops=0)
     for row in range(data.rows):
         data.board.append([data.emptyColor] * data.cols)
 # pre-load a few cells with known colors for testing purposes
