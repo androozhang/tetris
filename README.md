@@ -48,3 +48,24 @@ To run the Tetris game on your local machine, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/tetris-game.git
+
+2. Navigate to the project directory.
+
+    cd tetris-game
+
+3. Run the game.
+
+    python tetris.py
+
+## Controls
+
+- Use the "Left" and "Right" arrow keys to move the falling piece horizontally.
+- Use the "Down" arrow key to move the piece down faster.
+- Press the "Up" arrow key to rotate the falling piece.
+- Press the "R" key to restart the game.
+
+# License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Enjoy playing Tetris!
